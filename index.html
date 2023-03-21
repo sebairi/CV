@@ -4,140 +4,234 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
-    <link rel="shortcut icon" href="icons8-cv-80.png" type="image/x-icon">
-    <link rel="stylesheet" href="estilos.css">
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
     <script src="https://kit.fontawesome.com/10d5d2159c.js" crossorigin="anonymous"></script>
-    <script src="evento.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Original+Surfer&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="img/pngwing.com.png" type="image/x-icon">
+
 </head>
 <body>
-    
-    <header>
-        <img src="img/yo.jpg" alt="Foto de perfil">
-        <div class="div1">
-            <h1>SEBASTIAN ROBERTO IRIARTE</h1>
-            <h2>Tecnico Universitario en Medio Ambiente</h2>
-          <div class="botones">
-            <button type="button" onmouseover="mostrarNumero();" onmouseout="ocultarNumero();"><i class="fa-solid fa-phone"></i></button>
-            <div id="numero">
-                <p> (2392)-545012</p> 
-            </div>
-            <button type="button" onmouseover="mostrarEmail();" onmouseout="ocultarEmail();"><i class="fa-solid fa-at"></i></button>
-            <div id="email">
-               <p>seba.r.iriarte@gmail.com</p> 
-            </div>
-            
-            <button type="button" onmouseover="mostrarDireccion();" onmouseout="ocultarDireccion();"><i class="fa-solid fa-house"></i></button>
-            <div id="direccion">
-                <p>Pasaje Husares 452</p>
-            </div>
-          </div>
-        </div>
-    </header>
-    
-    <section>
-        <article>
-            <h2><i class="fa-solid fa-briefcase"></i>EXPERIENCIA LABORAL</h2>
-            <ul>
-                <li>
-                    <div id="exp1">
-                    <p>Analista medioambiental</p>
-                    <p>2020 - Actualidad</p>       
+    <main class="contenedor">
+        <div class="pagina1">
+            <div class="banner">
+                <div class="banner_logo">
+                    <img src="img/Recycle-Logo.png" alt="imagen de logo">
                 </div>
-                    <p>Argitech, Bahia Blanca</p>
-                    <p>Desarrollo de actividades de control medioambiental en los sectores de la empresa</p>
-                </li>
-                <li> 
-                    <div id="exp1">
-                        <p>Soporte Tecnico</p>
-                        <p>2018 - 2020</p>       
-                    </div>
-                        <p>Centro de datos, Buenos Aires</p>
-                        <p>Tareas de soporte a empresas y mantenimiento de equipos.</p>
-                </li>
-                <li>
-                    <div id="exp1">
-                        <p>Analista medioambiental</p>
-                        <p>2020 - Actualidad</p>       
-                    </div>
-                        <p>Argitech, Bahia Blanca</p>
-                        <p>Desarrollo de actividades de control medioambiental en los sectores de la empresa</p>
-                </li>
-            </ul>
-
-            <hr>
-
-            <h2>HABILIDADES</h2>
-            <div class="flex">
-            <p>Manejo de herramientas Office</p>
-            <progress value="80" max="100"></progress><br> 
-            <p>Conocimiento de idioma ingles</p>
-            <progress value="50" max="100"></progress>
-            <p>Programacion</p>
-            <progress value="30" max="100"></progress>
+                <div class="banner_titulo">
+                    <h1>SEBASTIAN ROBERTO IRIARTE</h1>
+                    <h2>Tecnico Universitario en Medio Ambiente</h2>
+                </div>
             </div>
-            
-        </article>
-        <aside>
 
-            <h2 class="cursos">CURSOS</h2>
-            <ul><li><p>Introducción | Primeros pasos en Front-end</p>
-            <p>Inicio: Diciembre 2022 Fin: Febrero 2023 </p>
-               </li>
+            <section class="seccion">
 
-               <li><p>Certificado profesional de Soporte de TI de Google</p>
-            <p>Inicio: Abril 2022 Fin: Diciembre 2022</p>
-               </li>
+                <div class="seccion_titulo">
+                    <h3>HABILIDADES</h3>
+                </div>
 
-                <li><p>Capacitacion en animales ponzoñosos de importancia sanitaria de la Provincia de Buenos Aires</p>
-            <p>Inicio: Marzo 2020 Fin: Marzo 2020</p>
-                </li>
-            </ul>
+                <div class="seccion_habilidades">
 
-            <hr>
+                    <div class="hab">
+                        <div class="hab_texto">
+                            <h5>html</h5>
+                            <span>80%</span>
+                        </div>
 
-            <h2><i class="fa-solid fa-graduation-cap"></i>EDUCACION</h2>
-            <ul>
-                
-                <li>
-                    <p>Inicio: Agosto 2015 Fin: Marzo 2022</p>
-                    <p>Tecnicatura Universitaria en Medio Ambiente</p>
-                    <p>Universidad Nacional del Sur</p>
-                </li>
+                        <div class="hab_barra_externa">
+                            <div class="hab_barra_interna"></div>
+                        </div>
+                    </div>
 
-                <li>
-                    <p>Inicio: Marzo 2008 Fin: Sin finalizar </p>
-                    <p>Ingenieria electronica</p>
-                    <p>Universidad Nacional del Sur</p>
-                </li>
+                    <div class="hab">
+                        <div class="hab_texto">
+                            <h5>css</h5>
+                            <span>60%</span>
+                        </div>
 
-                <li>
-                    <p>Inicio: 2003 Fin: 2007</p>
-                    <p>Tecnico Electromecanico</p>
-                    <p>Escuela de Educacion Tecnica Nº 1</p>
-                </li>
-                
-            </ul>
-            
-            
-        </aside>
-    </section>
-    <footer class="contacto" id="contacto">
-        <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Contactame</h2>
-                <form id="form" action="#" method="post">
-                    <label for="name">Nombre Completo</label>
-                    <input name="name" required type="text" id="name" placeholder="Ingresa tu nombre completo"><br>
-                    <label for="email">Correo Electrónico</label>
-                    <input name="email" id="correo" required type="email" placeholder="Ingrese su email"><br>
-                    <label for="message">Mensaje</label>
-                    <textarea id="message" cols="30" rows="10" required></textarea>
-                    <input type="submit" value="Enviar" placeholder="Escriba un mensaje">
-                </form>
+                        <div class="hab_barra_externa">
+                            <div class="hab_barra_interna"></div>
+                        </div>
+                    </div>
+
+                    <div class="hab">
+                        <div class="hab_texto">
+                            <h5>javascript</h5>
+                            <span>40%</span>
+                        </div>
+
+                        <div class="hab_barra_externa">
+                            <div class="hab_barra_interna"></div>
+                        </div>
+                    </div>
+
+                    <div class="hab">
+                        <div class="hab_texto">
+                            <h5>manejo de paquete office</h5>
+                            <span>90%</span>
+                        </div>
+
+                        <div class="hab_barra_externa">
+                            <div class="hab_barra_interna"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="seccion_botones">
+
+                    <a href="#" id="sobremi">
+                        Sobre mi
+                        <i class="fa-regular fa-hand-point-right"></i>
+                    </a>
+
+                </div>
+            </section>
+
         </div>
-    </footer>
 
-   
+        <div class="pagina2"  id="pagina2">
 
+            <header class="barra_header">
+                <a class="barra_header_a" href="#" id="volver">
+                    <i class="fa-regular fa-hand-point-left"></i>
+                    VOLVER
+                </a>
+            </header>
+
+
+            <section class="info_foto">
+                <img class="info_imagen" src="img/yo.jpg" alt="Mi foto">
+            </section>
+
+            <section class="datos_personales">
+
+                <div class="info_nombre">
+                    <h1>Sebastian Roberto Iriarte</h1>
+                    <h2>Tec. Universitario en Medio Ambiente</h2>
+                </div>
+
+                <ul class="info_ul">
+
+                    <li class="info_lista">
+
+                        <div class="info_icono">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+
+                        <div class="info_texto">
+                            <p>Pais</p>
+                            <p>Argentina</p>
+                        </div>
+                    
+                    </li>
+
+                    <li class="info_lista">
+
+                        <div class="info_icono">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        
+                        <div class="info_texto">
+                            <p>Domicilio</p>
+                            <p>Pasaje Husares 452, Bahia Blanca</p>
+                        </div>
+
+                    </li>
+
+                    <li class="info_lista">
+
+                        <div class="info_icono">
+                            <i class="fa-solid fa-cake-candles"></i>
+                        </div>
+                        
+                        <div class="info_texto">
+                            <p>Fecha de Nacimiento</p>
+                            <p>14/09/1989</p>
+                        </div>
+
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class="perfil">
+
+                <div class="perfil_titulo">
+
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Perfil</h2>
+                    
+
+                </div>
+
+                <div class="perfil_texto">
+
+                    <p>Finalice mis estudios y busco incorporarme al mercado laboral.
+                        Tengo como objetivo seguir formandome en mi disciplina al mismo tiempo que adquiero experiencia.
+                        Soy responsable y organizado, tengo la mejor disposición para la realización de trabajos tanto individuales como en equipo.
+                        Mi disponibilidad horario es full time.
+                    </p>
+
+                </div>
+        
+            </section>
+
+            <section class="exp">
+
+                <div class="exp_titulo">
+
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h2>Experiencia laboral</h2>
+
+                </div>
+
+                <div class="exp_info">
+                    <table>
+                        <tr>
+                            <td class="exp_año">2023 - Actualidad</td>
+                            <td>Desarrolador Front End</td>
+                        </tr>
+                        <tr>
+                            <td class="exp_año">2021 - 2022</td>
+                            <td>Analista medioambiental</td>
+                        </tr>
+                        <tr>
+                            <td class="exp_año">2018 - 2020</td>
+                            <td>Especialista en soporte de TI</td>
+                        </tr>
+                    </table>
+                </div>
+
+                
+            </section>
+
+        </div>
+
+        <div class="contacto">
+            <div class="contacto_titulo">
+                <p>
+                    <span class="bold">Contáctame</span>
+                </p>
+            </div>
+
+            <div class="contacto_iconos">
+                <a href="https://wa.me/2392545679" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="mailto:seba.r.iriarte@gmail.com" target="_blank">
+                    <i class="fa-solid fa-at"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/sebaririarte" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/eventos.js"></script>
 </body>
 </html>
